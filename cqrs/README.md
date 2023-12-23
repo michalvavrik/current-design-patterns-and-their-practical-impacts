@@ -1,0 +1,1 @@
+**Command query responsibility segregation**
