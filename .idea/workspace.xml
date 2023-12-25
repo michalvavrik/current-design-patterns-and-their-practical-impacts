@@ -5,21 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b705c3-c775-4c6b-a964-33f07580c1de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/composite/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/immutability/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflection/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-ambassador/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/src/main/java/edu/michalvavrik/cdc/DataChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/src/main/java/edu/michalvavrik/cdc/DatabaseChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/src/main/java/edu/michalvavrik/cdc/GreetingsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/src/main/java/edu/michalvavrik/cdc/GreetingsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-change-data-capture/src/test/java/edu/michalvavrik/cdc/ChangeDataCaptureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-dependency-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-enterprise-integration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-event-sourcing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-jdk-specifics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-leader-election/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-load-shedding/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-microservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-publisher-subscriber/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-reflection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory-resilience-patterns/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-sourcing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/event-sourcing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ambassador/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-ambassador/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ambassador/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-cqrs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/change-data-capture/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/change-data-capture/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-immutability/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-composite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-cqrs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-hedging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-dependency-injection/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-integration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-enterprise-integration/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise-integration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-sourcing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-event-sourcing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-sourcing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-sharding/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hedging/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-hedging/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hedging/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/immutability/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-specifics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-jdk-specifics/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-specifics/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leader-election/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-leader-election/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leader-election/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-shedding/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-load-shedding/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-shedding/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-microservice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publisher-subscriber/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publisher-subscriber/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflection/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-reflection/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resilience-patterns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-resilience-patterns/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resilience-patterns/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sharding/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-sharding/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sharding/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +93,10 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mvavrik/Downloads/diplomka/current-design-patterns-and-their-practical-impacts/microservice",
+    "last_opened_file_path": "/home/mvavrik/Downloads/diplomka/current-design-patterns-and-their-practical-impacts/change-data-capture",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,11 +110,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/change-data-capture" />
+      <recent name="$PROJECT_DIR$/enterprise-integration" />
       <recent name="$PROJECT_DIR$/microservice" />
       <recent name="$PROJECT_DIR$/reflection" />
       <recent name="$PROJECT_DIR$/dependency-injection" />
-      <recent name="$PROJECT_DIR$/hedging" />
-      <recent name="$PROJECT_DIR$/sharding" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -80,7 +133,9 @@
       <option name="presentableId" value="Default" />
       <updated>1703261616711</updated>
       <workItem from="1703261617756" duration="4308000" />
-      <workItem from="1703322251748" duration="10749000" />
+      <workItem from="1703322251748" duration="12873000" />
+      <workItem from="1703406963004" duration="4130000" />
+      <workItem from="1703492652272" duration="8640000" />
     </task>
     <servers />
   </component>

@@ -14,6 +14,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <quarkus.version>3.6.4</quarkus.version>
+        <debezium.version>2.5.0.Final</debezium.version>
     </properties>
 
     <dependencyManagement>
@@ -22,28 +23,29 @@
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-bom</artifactId>
                 <version>${quarkus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
-
-        <module>load-shedding</module>
-        <module>jdk-specifics</module>
-        <module>resilience-patterns</module>
-        <module>ambassador</module>
-        <module>cqrs</module>
-        <module>event-sourcing</module>
-        <module>leader-election</module>
-        <module>publisher-subscriber</module>
-        <module>sharding</module>
-        <module>hedging</module>
-        <module>change-data-capture</module>
-        <module>dependency-injection</module>
-        <module>immutability</module>
-        <module>composite</module>
-        <module>reflection</module>
-        <module>microservice</module>
-        <module>enterprise-integration</module>
+        <module>theory-load-shedding</module>
+        <module>theory-jdk-specifics</module>
+        <module>theory-resilience-patterns</module>
+        <module>theory-ambassador</module>
+        <module>theory-cqrs</module>
+        <module>theory-event-sourcing</module>
+        <module>theory-leader-election</module>
+        <module>theory-publisher-subscriber</module>
+        <module>theory-sharding</module>
+        <module>theory-hedging</module>
+        <module>theory-change-data-capture</module>
+        <module>theory-dependency-injection</module>
+        <module>theory-immutability</module>
+        <module>theory-composite</module>
+        <module>theory-reflection</module>
+        <module>theory-microservice</module>
+        <module>theory-enterprise-integration</module>
     </modules>
 </project>

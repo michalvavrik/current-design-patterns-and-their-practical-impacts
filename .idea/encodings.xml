@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/ambassador/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ambassador/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/change-data-capture/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/change-data-capture/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/composite/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/composite/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cqrs/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cqrs/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dependency-injection/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dependency-injection/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/event-sourcing/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/event-sourcing/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hedging/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hedging/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/immutability/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/immutability/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jdk-specifics/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jdk-specifics/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/leader-election/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/leader-election/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/load-shedding/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/load-shedding/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/publisher-subscriber/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/publisher-subscriber/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/reflection/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/reflection/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/resilience-patterns/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/resilience-patterns/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sharding/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sharding/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-ambassador/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-ambassador/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-change-data-capture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-change-data-capture/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-composite/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-composite/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-cqrs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-cqrs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-dependency-injection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-dependency-injection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-enterprise-integration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-enterprise-integration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-event-sourcing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-event-sourcing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-hedging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-hedging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-immutability/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-immutability/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-jdk-specifics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-jdk-specifics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-leader-election/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-leader-election/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-load-shedding/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-load-shedding/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-microservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-publisher-subscriber/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-publisher-subscriber/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-reflection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-reflection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-resilience-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-resilience-patterns/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-sharding/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/theory-sharding/src/main/resources" charset="UTF-8" />
   </component>
 </project>

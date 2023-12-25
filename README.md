@@ -1,6 +1,6 @@
 Current design patterns and their practical impacts
 
-metrics:
+Metrics:
 
 - Time to first byte
 - Response time
