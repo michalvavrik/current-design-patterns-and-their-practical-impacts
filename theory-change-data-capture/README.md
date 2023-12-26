@@ -10,3 +10,5 @@ References:
 - https://www.youtube.com/watch?v=zOOFMHAjoPI
 - https://speakerdeck.com/gunnarmorling/practical-change-data-streaming-use-cases-with-apache-kafka-and-debezium-qcon-san-francisco-2019
 - https://github.com/debezium/debezium-examples/tree/main/cache-invalidation/
+- https://www.youtube.com/watch?v=Vd1z9Z2-8VE
+- 
