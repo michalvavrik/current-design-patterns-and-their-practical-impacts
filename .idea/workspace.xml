@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b705c3-c775-4c6b-a964-33f07580c1de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/theory-publisher-subscriber/src/main/java/edu/michalvavrik/PublisherSubscriberResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theory-change-data-capture/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-change-data-capture/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theory-publisher-subscriber/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-publisher-subscriber/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,9 @@
       <workItem from="1703322251748" duration="12873000" />
       <workItem from="1703406963004" duration="4130000" />
       <workItem from="1703492652272" duration="17512000" />
-      <workItem from="1703578033993" duration="623000" />
+      <workItem from="1703578033993" duration="3372000" />
+      <workItem from="1703669804538" duration="794000" />
+      <workItem from="1703752115501" duration="6526000" />
     </task>
     <servers />
   </component>
