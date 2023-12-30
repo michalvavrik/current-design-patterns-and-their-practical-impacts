@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b705c3-c775-4c6b-a964-33f07580c1de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience-skoda-it-mqtt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience-skoda-it-mqtt/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/experience-nasa-gcn-publisher-subscriber/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/experience-nasa-gcn-publisher-subscriber/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber/src/main/java/edu/michalvavrik/gcn/ConsumeGcnEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/experience-nasa-gcn-publisher-subscriber/src/main/java/edu/michalvavrik/gcn/ConsumeGcnEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/experience-nasa-gcn-publisher-subscriber/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mvavrik/Downloads/diplomka/current-design-patterns-and-their-practical-impacts/change-data-capture&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mvavrik/Downloads/diplomka/current-design-patterns-and-their-practical-impacts/practice-nasa-gcn-publisher-subscriber&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,15 +66,54 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber" />
       <recent name="$PROJECT_DIR$/change-data-capture" />
       <recent name="$PROJECT_DIR$/enterprise-integration" />
       <recent name="$PROJECT_DIR$/microservice" />
       <recent name="$PROJECT_DIR$/reflection" />
-      <recent name="$PROJECT_DIR$/dependency-injection" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.michalvavrik" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="practice-nasa-gcn-publisher-subscriber" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="experience-nasa-gcn-publisher-subscriber" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/practice-nasa-gcn-publisher-subscriber" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>true</emulateTerminal>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -90,7 +137,8 @@
       <workItem from="1703578033993" duration="3372000" />
       <workItem from="1703669804538" duration="794000" />
       <workItem from="1703752115501" duration="6526000" />
-      <workItem from="1703839735475" duration="5890000" />
+      <workItem from="1703839735475" duration="12046000" />
+      <workItem from="1703928801749" duration="514000" />
     </task>
     <servers />
   </component>

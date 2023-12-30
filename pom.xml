@@ -47,6 +47,7 @@
         <module>theory-reflection</module>
         <module>theory-microservice</module>
         <module>theory-enterprise-integration</module>
-        <module>practice-nasa-gcn-publisher-subscriber</module>
+        <module>experience-nasa-gcn-publisher-subscriber</module>
+        <module>experience-skoda-it-mqtt</module>
     </modules>
 </project>
