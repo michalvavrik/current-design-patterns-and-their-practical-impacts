@@ -14,3 +14,7 @@ Metrics:
 - Time to first successful request
 - Startup time
 - Queries per second
+- Response time (max)
+- Throughput
+- Resident State Size (RSS)
+- DORA Metrics https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
