@@ -25,4 +25,9 @@ public class PublisherSubscriberTest {
         RestAssured.get("/java-flow").then().statusCode(200).body(is("server-response-plus-client-response"));
     }
 
+    @Test
+    public void testSynchronousCdiEvents() {
+        RestAssured.get("/cdi-events").then().statusCode(200).body(is("CDI"));
+    }
+
 }
