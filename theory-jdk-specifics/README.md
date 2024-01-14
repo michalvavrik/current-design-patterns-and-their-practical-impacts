@@ -12,3 +12,5 @@ references:
 - Clean code - https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj in light of performance best practices 
   like inlining, especially SOLID and suggestion to extract everything into functions
 - lock vs concurrency - https://github.com/quarkusio/quarkus/pull/37529
+- https://twitter.com/forked_franz/status/971109914939666432
+- https://www.techempower.com/benchmarks/#section=test&runid=39f7315f-411b-43da-a569-b913e87749db&test=composite&hw=ph

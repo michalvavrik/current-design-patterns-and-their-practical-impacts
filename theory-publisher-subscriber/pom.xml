@@ -15,6 +15,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mutiny-zero-vertx-publishers.version>1.0.0</mutiny-zero-vertx-publishers.version>
     </properties>
 
     <dependencies>
@@ -25,6 +26,11 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-vertx</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.smallrye.reactive</groupId>
+            <artifactId>mutiny-zero-vertx-publishers</artifactId>
+            <version>${mutiny-zero-vertx-publishers.version}</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>

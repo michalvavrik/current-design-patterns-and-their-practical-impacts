@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b705c3-c775-4c6b-a964-33f07580c1de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/theory-publisher-subscriber/src/main/java/edu/michalvavrik/JavaFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theory-microservice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-microservice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-jdk-specifics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theory-jdk-specifics/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-publisher-subscriber/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-publisher-subscriber/src/test/java/edu/michalvavrik/PublisherSubscriberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/src/test/java/edu/michalvavrik/PublisherSubscriberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +143,14 @@
       <workItem from="1704536690811" duration="1839000" />
       <workItem from="1704619898545" duration="636000" />
       <workItem from="1704713189233" duration="3602000" />
+      <workItem from="1704742996299" duration="30000" />
+      <workItem from="1704745205260" duration="3000" />
+      <workItem from="1704830832034" duration="632000" />
+      <workItem from="1704885026048" duration="1203000" />
+      <workItem from="1704974835873" duration="2962000" />
+      <workItem from="1705061180683" duration="888000" />
+      <workItem from="1705147384371" duration="1998000" />
+      <workItem from="1705223648111" duration="6005000" />
     </task>
     <servers />
   </component>
