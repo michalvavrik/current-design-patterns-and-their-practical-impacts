@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b705c3-c775-4c6b-a964-33f07580c1de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/theory-publisher-subscriber/src/main/java/edu/michalvavrik/CdiEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theory-publisher-subscriber/src/test/java/edu/michalvavrik/PublisherSubscriberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/src/test/java/edu/michalvavrik/PublisherSubscriberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-publisher-subscriber/src/main/java/edu/michalvavrik/JavaFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/theory-publisher-subscriber/src/main/java/edu/michalvavrik/JavaFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,13 @@
       <workItem from="1704974835873" duration="2962000" />
       <workItem from="1705061180683" duration="888000" />
       <workItem from="1705147384371" duration="1998000" />
-      <workItem from="1705223648111" duration="7388000" />
+      <workItem from="1705223648111" duration="8422000" />
+      <workItem from="1705314384748" duration="2529000" />
+      <workItem from="1705398528478" duration="254000" />
+      <workItem from="1705422386031" duration="1814000" />
+      <workItem from="1705483961210" duration="4224000" />
+      <workItem from="1705591789118" duration="1676000" />
+      <workItem from="1705662654510" duration="23000" />
     </task>
     <servers />
   </component>

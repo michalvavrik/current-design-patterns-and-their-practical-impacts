@@ -12,10 +12,7 @@ import jakarta.enterprise.event.Observes;
 import mutiny.zero.vertxpublishers.VertxPublisher;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
-import java.nio.charset.StandardCharsets;
-import java.util.concurrent.Callable;
 import java.util.concurrent.Flow;
-import java.util.concurrent.TimeUnit;
 
 public class JavaFlow {
 
