@@ -16,3 +16,4 @@ References:
 - https://mediaspace.illinois.edu/media/t/1_8c6330x7
 - https://www.datastreamingawards.io/winners/nasa-jpl
 - https://www.confluent.io/blog/cloud-services/
+- https://www.youtube.com/watch?v=Wmw4C1D7utI
