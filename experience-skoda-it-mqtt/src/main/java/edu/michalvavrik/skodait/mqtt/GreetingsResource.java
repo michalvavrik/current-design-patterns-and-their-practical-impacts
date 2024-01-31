@@ -1,4 +1,4 @@
-package io.quarkiverse.hivemqclient.test.smallrye;
+package edu.michalvavrik.skodait.mqtt;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;

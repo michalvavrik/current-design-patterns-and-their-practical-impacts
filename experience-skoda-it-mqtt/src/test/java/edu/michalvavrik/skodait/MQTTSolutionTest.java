@@ -1,6 +1,6 @@
-package io.quarkiverse.hivemqclient.test.smallrye;
+package edu.michalvavrik.skodait;
 
-import static io.quarkiverse.hivemqclient.test.smallrye.GreetingGenerator.EXPECTED_GREETINGS;
+import static edu.michalvavrik.skodait.mqtt.GreetingGenerator.EXPECTED_GREETINGS;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
@@ -13,10 +13,12 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import io.quarkus.test.bootstrap.DevModeQuarkusService;
 import io.quarkus.test.bootstrap.Protocol;
 import io.quarkus.test.bootstrap.RestService;
 import io.quarkus.test.scenarios.QuarkusScenario;
 import io.quarkus.test.services.DevModeQuarkusApplication;
+import io.quarkus.test.services.QuarkusApplication;
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.WebTarget;
@@ -34,13 +36,31 @@ public class MQTTSolutionTest {
 
     // starts HiveMQ container and Quarkus app that generates first messages
     @DevModeQuarkusApplication
-    static RestService generator = new RestService();
+    static RestService generatorAndConsumer = new DevModeQuarkusService()
+            .withProperty("generation-enabled", "true")
+            .withProperty("quarkus.application.name", "generatorAndConsumer");
+
+    @QuarkusApplication
+    static RestService consumer1 = new RestService().withProperty("quarkus.application.name", "consumer1");
+
+    @QuarkusApplication
+    static RestService consumer2 = new RestService().withProperty("quarkus.application.name", "consumer2");
+
+    @QuarkusApplication
+    static RestService consumer3 = new RestService().withProperty("quarkus.application.name", "consumer3");
 
     @Test
     public void streamGreetings() {
+        assertGreetingsConsumed(generatorAndConsumer);
+        assertGreetingsConsumed(consumer1);
+        assertGreetingsConsumed(consumer2);
+        assertGreetingsConsumed(consumer3);
+    }
+
+    private static void assertGreetingsConsumed(RestService svc) {
         AtomicInteger totalAmountReceived = new AtomicInteger(0);
         Client client = ClientBuilder.newClient();
-        WebTarget target = client.target(URI.create(generator.getURI(Protocol.HTTP).withPath("/greetings/stream").toString()));
+        WebTarget target = client.target(URI.create(svc.getURI(Protocol.HTTP).withPath("/greetings/stream").toString()));
         CountDownLatch expectedAmount = new CountDownLatch(5);
         Set<String> actualGreetings = ConcurrentHashMap.newKeySet();
         try (SseEventSource source = SseEventSource.target(target).build()) {
