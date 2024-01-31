@@ -54,6 +54,11 @@
             <version>${hive.testcontainers.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.quarkus.qe</groupId>
+            <artifactId>quarkus-test-core</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

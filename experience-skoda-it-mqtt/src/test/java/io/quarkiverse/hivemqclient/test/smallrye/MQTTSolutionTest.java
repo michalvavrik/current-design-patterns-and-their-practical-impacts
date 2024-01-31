@@ -3,11 +3,9 @@ package io.quarkiverse.hivemqclient.test.smallrye;
 import static io.quarkiverse.hivemqclient.test.smallrye.GreetingGenerator.EXPECTED_GREETINGS;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.net.URI;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -15,6 +13,10 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import io.quarkus.test.bootstrap.Protocol;
+import io.quarkus.test.bootstrap.RestService;
+import io.quarkus.test.scenarios.QuarkusScenario;
+import io.quarkus.test.services.DevModeQuarkusApplication;
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.WebTarget;
@@ -25,32 +27,20 @@ import org.jboss.logging.Logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import io.quarkus.test.common.http.TestHTTPResource;
+@QuarkusScenario
+public class MQTTSolutionTest {
+    private static final int TIMEOUT_SEC = 6;
+    private static final Logger LOG = Logger.getLogger(MQTTSolutionTest.class);
 
-import io.quarkus.test.junit.QuarkusTest;
-
-@QuarkusTest
-public class MQTTTest {
-    private static final int TIMEOUT_SEC = 5;
-    private static final Logger LOG = Logger.getLogger(MQTTTest.class);
-
-    @TestHTTPResource("greetings/stream")
-    URI greetingsUrl;
-
-    @Test
-    public void getGreeting() {
-        given()
-                .when().get("/greetings")
-                .then()
-                .statusCode(200)
-                .body(is("hello"));
-    }
+    // starts HiveMQ container and Quarkus app that generates first messages
+    @DevModeQuarkusApplication
+    static RestService generator = new RestService();
 
     @Test
     public void streamGreetings() {
         AtomicInteger totalAmountReceived = new AtomicInteger(0);
         Client client = ClientBuilder.newClient();
-        WebTarget target = client.target(greetingsUrl);
+        WebTarget target = client.target(URI.create(generator.getURI(Protocol.HTTP).withPath("/greetings/stream").toString()));
         CountDownLatch expectedAmount = new CountDownLatch(5);
         Set<String> actualGreetings = ConcurrentHashMap.newKeySet();
         try (SseEventSource source = SseEventSource.target(target).build()) {
@@ -65,8 +55,7 @@ public class MQTTTest {
         } catch (InterruptedException ignored) {
         } finally {
             int received = totalAmountReceived.get();
-            Assertions.assertTrue(received > 0);
-            // greetings are generated before test starts consuming them, so it will always be just small subset of them
+            Assertions.assertTrue(received > 4);
             List<String> expectedGreetings = Arrays.stream(EXPECTED_GREETINGS).map(greeting -> greeting + "!").toList();
             Assertions.assertTrue(expectedGreetings.containsAll(actualGreetings));
         }
