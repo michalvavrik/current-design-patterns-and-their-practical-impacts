@@ -44,5 +44,6 @@
         <module>theory-microservice</module>
         <module>experience-nasa-gcn-publisher-subscriber</module>
         <module>experience-skoda-it-mqtt</module>
+        <module>experience-ing-poison-pill</module>
     </modules>
 </project>
