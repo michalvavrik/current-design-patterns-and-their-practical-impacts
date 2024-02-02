@@ -38,23 +38,10 @@
     </dependencyManagement>
 
     <modules>
-        <module>theory-load-shedding</module>
-        <module>theory-jdk-specifics</module>
-        <module>theory-resilience-patterns</module>
-        <module>theory-ambassador</module>
-        <module>theory-cqrs</module>
-        <module>theory-event-sourcing</module>
-        <module>theory-leader-election</module>
         <module>theory-publisher-subscriber</module>
-        <module>theory-sharding</module>
-        <module>theory-hedging</module>
         <module>theory-change-data-capture</module>
-        <module>theory-dependency-injection</module>
-        <module>theory-immutability</module>
-        <module>theory-composite</module>
-        <module>theory-reflection</module>
+        <module>theory-dead-letter-queue</module>
         <module>theory-microservice</module>
-        <module>theory-enterprise-integration</module>
         <module>experience-nasa-gcn-publisher-subscriber</module>
         <module>experience-skoda-it-mqtt</module>
     </modules>
