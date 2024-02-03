@@ -45,5 +45,6 @@
         <module>experience-nasa-gcn-publisher-subscriber</module>
         <module>experience-skoda-it-mqtt</module>
         <module>experience-ing-poison-pill</module>
+        <module>experience-netflix-graphql-shim</module>
     </modules>
 </project>
