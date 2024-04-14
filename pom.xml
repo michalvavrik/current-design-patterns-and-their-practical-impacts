@@ -42,6 +42,7 @@
         <module>theory-change-data-capture</module>
         <module>theory-dead-letter-queue</module>
         <module>theory-microservice</module>
+        <module>theory-callback</module>
         <module>experience-nasa-gcn-publisher-subscriber</module>
         <module>experience-skoda-it-mqtt</module>
         <module>experience-ing-poison-pill</module>
