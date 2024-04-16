@@ -47,5 +47,6 @@
         <module>experience-skoda-it-mqtt</module>
         <module>experience-ing-poison-pill</module>
         <module>experience-netflix-graphql-shim</module>
+        <module>theory-dependency-injection</module>
     </modules>
 </project>
