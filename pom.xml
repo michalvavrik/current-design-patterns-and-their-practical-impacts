@@ -13,7 +13,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <quarkus.version>3.6.4</quarkus.version>
+        <quarkus.version>3.8.5</quarkus.version>
         <debezium.version>2.5.0.Final</debezium.version>
         <quarkus.qe.framework.version>1.3.0.Beta32</quarkus.qe.framework.version>
     </properties>
@@ -43,10 +43,11 @@
         <module>theory-dead-letter-queue</module>
         <module>theory-microservice</module>
         <module>theory-callback</module>
+        <module>theory-dependency-injection</module>
+        <module>theory-resilience</module>
         <module>experience-nasa-gcn-publisher-subscriber</module>
         <module>experience-skoda-it-mqtt</module>
         <module>experience-ing-poison-pill</module>
         <module>experience-netflix-graphql-shim</module>
-        <module>theory-dependency-injection</module>
     </modules>
 </project>
